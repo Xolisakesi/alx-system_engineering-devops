@@ -1,0 +1,16 @@
+total 0
+drwx------ 2 root root 3488 Aug  7 20:23 .
+drwx------ 6 root root 3488 Aug  7 08:37 ..
+-rwx------ 1 root root   33 Aug  7 11:40 0-hello_world
+-rwx------ 1 root root   28 Aug  7 11:54 1-confused_smiley
+-rwx------ 1 root root   28 Aug  7 12:03 2-hellofile
+-rwx------ 1 root root   39 Aug  7 12:34 3-twofiles
+-rwx------ 1 root root   29 Aug  7 12:48 4-lastlines
+-rwx------ 1 root root   29 Aug  7 12:54 5-firstlines
+-rwx------ 1 root root   36 Aug  7 13:07 6-third_line
+-rwx------ 1 root root  102 Aug  7 17:49 7-file
+-rwx------ 1 root root   36 Aug  7 20:22 8-cwd_state
+-rwx------ 1 root root   40 Aug  7 19:41 9-duplicate_last_line
+-rw------- 1 root root   38 Aug  7 11:31 README.md
+-rw------- 1 root root    0 Aug  7 20:23 ls_cwd_content
+-rw------- 1 root root    0 Aug  7 17:46  \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
