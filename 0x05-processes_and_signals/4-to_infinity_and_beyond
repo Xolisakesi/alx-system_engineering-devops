@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# Displays "To infinity and beyond" indefinitely with
+# a sleep of 2 seconds in between each iteration.
 
-# Infinite loop with a 2-second delay between iterations
 while true; do
     echo "To infinity and beyond"
     sleep 2
