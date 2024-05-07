@@ -12,5 +12,17 @@ def number_of_subscribers(subreddit):
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code == 404:
         return 0
-    results = response.json().get("data")
-    return results.get("subscribers")
+    try:
+        data = response.json().get("data")
+        return data.get("subscribers")
+    except Exception as e:
+        print("An error occurred:", e)
+        return 0
+
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) < 2:
+        print("Please pass an argument for the subreddit to search.")
+    else:
+        print(number_of_subscribers(sys.argv[1]))
