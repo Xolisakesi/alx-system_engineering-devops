@@ -19,3 +19,6 @@ def top_ten(subreddit):
         return
     results = response.json().get("data")
     [print(c.get("data").get("title")) for c in results.get("children")]
+
+
+if __name__ == "__main__":
